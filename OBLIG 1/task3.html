@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetchWeather();
+                setInterval(fetchWeather, 30000); 
+            });
+            
+        </script>
+    </head>
+
+    <header>
+        <div id="header"> <!-- HEADER -->
+            <div id="links"> <!-- HEADER LOGO + LINKS-->
+                <h3>Header Logo</h3>
+                <ul>
+                    <li><a href="index.html">Header link one</a></li>
+                    <li><a href="task2.html">Header link two</a></li>
+                    <li><a href="#">Header link three</a></li>
+                </ul>
+            </div>
+
+            <div id="intro"> <!-- INTRO -->
+                <div>
+                    <h1>This website is awesome</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button>Sign up</button>
+                </div>
+                <div id="image">
+                    <img src="someimagethatdoesnotexist.png" alt="This is a placeholder for an image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section>
+            <div id="weatherdiv">
+                <table>       <!--THIS TABLE WILL BE OVERWRITTEN WHEN WE FETCH DATA-->
+                    <tr>
+                        <th>CITY</th>
+                        <th>TEMPERATURE</th>
+                        <th>WIND SPEED</th>
+                        <th>WIND DIRECTION</th>
+                    </tr>
+                    <tr>
+                        <td>city</td>
+                        <td>temperature</td>
+                        <td>wind speed</td>
+                        <td>wind direction</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <div>
+            <p>Copyright &copy;</p>
+        </div>
+    </footer>
+</html>

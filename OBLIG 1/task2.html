@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetchPosts();
+                fetchPosts();
+                fetchPosts();
+            });
+
+            window.onscroll = function() {    
+                console.log("offsetheight: " + document.body.offsetHeight);  
+                console.log("innerheight: " + window.innerHeight);
+                console.log("scroll: " + window.scrollY);           
+                if ((window.innerHeight + Math.ceil(window.scrollY)) >= document.body.offsetHeight) {
+                    fetchPosts();
+                }   
+            };
+            
+        </script>
+    </head>
+
+    <header>
+        <div id="header"> <!-- HEADER -->
+            <div id="links"> <!-- HEADER LOGO + LINKS-->
+                <h3>Header Logo</h3>
+                <ul>
+                    <li><a href="index.html">Header link one</a></li>
+                    <li><a href=#>Header link two</a></li>
+                    <li><a href="task3.html">Header link three</a></li>
+                </ul>
+            </div>
+
+            <div id="intro"> <!-- INTRO -->
+                <div>
+                    <h1>This website is awesome</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <button>Sign up</button>
+                </div>
+                <div id="image">
+                    <img src="someimagethatdoesnotexist.png" alt="This is a placeholder for an image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <div id="page">
+
+        </div>
+    </body>
+
+    <footer>
+        <div>
+            <p>Copyright &copy;</p>
+        </div>
+    </footer>
+</html>

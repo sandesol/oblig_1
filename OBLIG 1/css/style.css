@@ -1,0 +1,382 @@
+/*#region*/
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf), format('truetype');
+    font-weight: 1;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-BlackItalic.ttf), format('truetype');
+    font-weight: 2;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf), format('truetype');
+    font-weight: 3, bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-BoldItalic.ttf), format('truetype');
+    font-weight: 4;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Italic.ttf), format('truetype');
+    font-weight: 5;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Light.ttf), format('truetype');
+    font-weight: 6;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-LightItalic.ttf), format('truetype');
+    font-weight: 7;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.ttf), format('truetype');
+    font-weight: 8;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-MediumItalic.ttf), format('truetype');
+    font-weight: 9;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf), format('truetype');
+    font-weight: 10;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Thin.ttf), format('truetype');
+    font-weight: 11;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-ThinItalic.ttf), format('truetype');
+    font-weight: 12;
+}
+/*#endregion*/
+
+
+
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 1;
+    font-size: 38px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+p { 
+    font-family: 'Roboto';
+    font-weight: 8;
+}
+
+/* ********************************************** */
+
+
+body { /*slett meg*/
+    margin: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#header { 
+    background-color: #1f2936; 
+    padding: 20px;
+    color: white;
+}
+
+#links {
+    text-align: center;
+}
+
+#links ul {
+    width: auto;
+    height: auto;
+    padding-right: 30px;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #293746;
+}
+
+#links li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: 6;
+}
+
+#intro {
+    text-align: center;
+}
+
+
+#intro > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    text-align: left;
+    margin: 50px;
+}
+
+#intro button {
+    background-color: #3782f5;
+    color: white;
+    
+
+    border-radius: 6px;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#intro > #image {
+    height: 250px;
+    width: 500px;
+    background-color: #6d737d;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 6;
+}
+
+
+
+
+/****************************************************/
+
+
+
+#main > h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#info {
+    width: 690px;
+    margin: auto;
+}
+
+#boks1 {
+
+    display: inline-block;
+    padding: 20px;
+    width: 650px;
+}
+
+#boks1 > div {
+    border: solid;
+    display: inline-flex;
+    border-radius: 10px;
+    border-color: #3780f4;
+    float: left;
+    width: 230px;
+    height: 150px;
+    margin: 10px;
+}
+
+#boks1 > p {
+    display: flex;
+    text-align: justify;
+    padding-left: 20px;
+    width: 355px;
+    line-height: 25px;
+}
+
+#boks2 {
+
+    display: inline-flex;
+    padding: 20px;
+    width: 650px;
+    padding-bottom: 80px;
+}
+
+#boks2 > p {
+    display: inline-flex;
+    float: left;
+    text-align: justify;
+    padding-right: 10px;
+    line-height: 25px;
+    width: 400px;
+    margin: 10px;
+}
+
+#boks2 > div {
+    border: solid;
+    display: inline-flex;
+    border-radius: 10px;
+    border-color: #3782f5;
+    float: right;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+/*************************************************/
+
+
+#quote {
+    background-color: #e4e5eb;
+    padding: 100px;
+    margin: auto;
+}
+
+
+
+#quote > blockquote {
+    width: 530px;
+    font-family: 'Roboto';
+    font-weight: 7;
+    font-size: 24px;
+    margin: auto;
+    text-shadow: -2px 2px 4px rgb(46, 46, 46);
+}
+
+#quote > figcaption {
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 61%;
+}
+
+
+/*************************************************/
+
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 60px;
+    background-color: #3782f5;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+#signup > p {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#signup > button {
+    display: inline-block;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #3782f5;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+/************************************************/
+
+
+footer > div {
+    background-color: #1f2936;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+/* ********************************************* */
+
+/* task 2 */
+
+#post {
+    width: 30%;
+    background-color: #8cbaff;
+    display: inline-block;
+    margin: 1.66%;
+    vertical-align: top;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+#post > * {
+    padding: 3%;
+
+    font-family: 'Roboto';
+    font-weight: 8;
+}
+
+
+
+
+
+/***********************************************************/
+
+#weatherdiv {
+    width: 70%;
+    height: auto;
+    background-color: #a3e2e4;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+table {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+td, th{
+    font-family: 'Roboto';
+    font-weight: 10;
+    width: 10%;
+    height: 50px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(226, 250, 255);
+}
+
+tr:nth-child(even) {
+    background-color: #bef9ff;
+}
